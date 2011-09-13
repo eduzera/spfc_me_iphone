@@ -4,19 +4,11 @@ Ti.UI.setBackgroundColor('#eaeaea');
 var home = function(){
 	
 	var that 		= this;
-	this.url		= "http://localhost:3000"//"http://spfc.me";
+	this.url		= "http://spfc.me";//"http://localhost:3000"
 	
-	this.win_title;
-	this.win;		
-
-	this.table;
-	this.tableData 	= [];
+	this.win_title, this.win ,this.table,this.win_ngames,this.mainTabGroup,this.tab_ngames,this.tab_lnews, this.tableData 	= [];
+	
 	this.json_call;
-	
-	this.win_ngames;
-	this.mainTabGroup;
-	this.tab_ngames;
-	this.tab_lnews;
 	
 	this.startup = function(){
 		
